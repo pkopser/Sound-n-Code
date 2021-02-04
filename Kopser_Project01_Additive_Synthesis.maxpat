@@ -41,12 +41,12 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-4",
-					"linecount" : 5,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 37.0, 150.0, 74.0 ],
-					"text" : "Piper Kopser\nProject 01 -\nDescription:\n\n47574960"
+					"patching_rect" : [ 27.0, 38.0, 260.0, 74.0 ],
+					"text" : "Programmer: Piper Kopser\nDate: February 2021 \nProject Description: Using additive synthesis to create an original sound piece.\n"
 				}
 
 			}
