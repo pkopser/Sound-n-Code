@@ -69,7 +69,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2520.0, 1770.0, 225.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "SECTION 5: Right Speaker Omnicious"
 				}
 
@@ -288,7 +287,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1935.0, 1760.0, 210.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "SECTION 4: Left Speaker Omnicious"
 				}
 
@@ -522,7 +520,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 821.783341705799103, 705.0, 235.750005424022675, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "SECTION 2: Sad music w/ escalation"
 				}
 
@@ -1467,7 +1464,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 38.0, 260.0, 74.0 ],
+					"patching_rect" : [ 27.0, 38.0, 261.0, 74.0 ],
 					"text" : "Programmer: Piper Kopser\nDate: February 2021 \nProject Description: Using additive synthesis to create an original sound piece.\n"
 				}
 
