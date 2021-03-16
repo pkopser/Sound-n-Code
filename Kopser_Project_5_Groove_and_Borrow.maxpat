@@ -57,8 +57,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 650.0, 700.0, 74.0, 22.0 ],
-					"text" : "delay 42000"
+					"patching_rect" : [ 581.0, 620.0, 74.0, 22.0 ],
+					"text" : "delay 40000"
 				}
 
 			}
@@ -92,7 +92,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 761.0, 376.0, 74.0, 22.0 ],
-					"text" : "delay 34500"
+					"text" : "delay 36000"
 				}
 
 			}
@@ -142,15 +142,16 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"basictuning" : 440,
 									"data" : 									{
 										"clips" : [ 											{
-												"absolutepath" : "anton.aif",
-												"filename" : "anton.aif",
+												"absolutepath" : "Clap 01.wav",
+												"filename" : "Clap 01.wav",
 												"filekind" : "audiofile",
-												"id" : "u593011413",
+												"id" : "u565011478",
 												"loop" : 0,
 												"content_state" : 												{
 
@@ -162,7 +163,7 @@
 ,
 									"followglobaltempo" : 0,
 									"formantcorrection" : 0,
-									"id" : "obj-2",
+									"id" : "obj-3",
 									"maxclass" : "playlist~",
 									"mode" : "basic",
 									"numinlets" : 1,
@@ -171,7 +172,7 @@
 									"originaltempo" : 120.0,
 									"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 86.0, 193.0, 150.0, 30.0 ],
+									"patching_rect" : [ 89.0, 186.0, 150.0, 30.0 ],
 									"pitchcorrection" : 0,
 									"quality" : "basic",
 									"timestretch" : [ 0 ]
@@ -242,7 +243,7 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
+									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-107", 0 ]
 								}
 
@@ -264,14 +265,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-129", 0 ],
-									"source" : [ "obj-2", 0 ]
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-130", 0 ],
-									"source" : [ "obj-2", 1 ]
+									"source" : [ "obj-3", 1 ]
 								}
 
 							}
@@ -3675,6 +3676,12 @@
 				"name" : "eroica.aiff",
 				"bootpath" : "C74:/docs/tutorial-patchers/msp-tut",
 				"type" : "AIFF",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Clap 01.wav",
+				"bootpath" : "C74:/packages/MaxIntroLessons/media",
+				"type" : "WAVE",
 				"implicit" : 1
 			}
  ],
