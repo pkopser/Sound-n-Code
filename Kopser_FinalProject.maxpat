@@ -40,13 +40,233 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-263",
-					"linecount" : 10,
+					"basictuning" : 440,
+					"clipheight" : 109.0,
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "/Users/piperkopser/Library/Application Support/Cycling '74/Max 8/Settings/Cache/Driverslicense.mp3.aif",
+								"filename" : "Driverslicense.mp3.aif",
+								"filekind" : "audiofile",
+								"id" : "u526009429",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+ ]
+					}
+,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
+					"id" : "obj-22",
+					"maxclass" : "playlist~",
+					"mode" : "basic",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1742.0, 968.0, 606.0, 110.0 ],
+					"pitchcorrection" : 0,
+					"quality" : "basic",
+					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"basictuning" : 440,
+					"clipheight" : 127.0,
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "Macintosh HD:/Users/piperkopser/Dropbox/My Mac (Piper’s MacBook Pro)/Downloads/yt1s.com - Harry Styles  Watermelon Sugar Lyrics.mp3",
+								"filename" : "yt1s.com - Harry Styles  Watermelon Sugar Lyrics.mp3",
+								"filekind" : "audiofile",
+								"id" : "u063008941",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+ ]
+					}
+,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
+					"id" : "obj-14",
+					"maxclass" : "playlist~",
+					"mode" : "basic",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1742.0, 817.0, 624.0, 128.0 ],
+					"pitchcorrection" : 0,
+					"quality" : "basic",
+					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 414.0, 697.166669011116028, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "gain~",
+					"multichannelvariant" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 297.162151455879211, 487.666669011116028, 22.0, 140.0 ],
+					"size" : 150
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 285.662151455879211, 685.666669011116028, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 209.0, 328.0, 31.0, 22.0 ],
+					"text" : "sig~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 215.75, 388.0, 151.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"basictuning" : 440,
+						"followglobaltempo" : 0,
+						"formantcorrection" : 0,
+						"loopend" : [ 0.0, "ms" ],
+						"loopstart" : [ 0.0, "ms" ],
+						"mode" : "basic",
+						"originallength" : [ 0.0, "ticks" ],
+						"originaltempo" : 120.0,
+						"phase" : [ 0.0, "ticks" ],
+						"pitchcorrection" : 0,
+						"quality" : "basic",
+						"timestretch" : [ 0 ]
+					}
+,
+					"text" : "groove~ watermelon sugar"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 209.0, 290.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 209.0, 253.0, 29.5, 22.0 ],
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 209.0, 164.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1684.0, 537.666669011116028, 194.0, 141.0 ],
-					"text" : "things to work on:\n\n- add more songs, change with keypress?\n-add rate manipulation based off of song parameter\n\n\nQuestions: on screen or using jit.world?"
+					"patching_rect" : [ 309.0, 283.0, 300.0, 20.0 ],
+					"text" : "Song Credit: Waternelon Sugar by Harry Styles"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"patching_rect" : [ 309.0, 245.0, 145.0, 22.0 ],
+					"text" : "buffer~ watermelon sugar"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 309.0, 192.0, 48.0, 22.0 ],
+					"text" : "replace"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-263",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1684.0, 537.666669011116028, 197.0, 87.0 ],
+					"text" : "things to work on:\n\n- add more songs, change with keypress?\n-add rate manipulation based off of song parameter"
 				}
 
 			}
@@ -57,8 +277,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 850.0, 376.0, 39.0, 22.0 ],
-					"text" : "rate 1"
+					"patching_rect" : [ 850.0, 376.0, 49.0, 22.0 ],
+					"text" : "rate 0.2"
 				}
 
 			}
@@ -94,7 +314,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1176.000017762184143, 1236.000013470649719, 95.0, 22.0 ],
-					"presentation_linecount" : 4,
 					"text" : "read bursts.mp4"
 				}
 
@@ -202,7 +421,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 754.000017762184143, 1226.000013470649719, 97.0, 22.0 ],
-					"presentation_linecount" : 4,
 					"text" : "read simple.mp4"
 				}
 
@@ -310,7 +528,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1247.000017762184143, 788.000013470649719, 88.0, 22.0 ],
-					"presentation_linecount" : 4,
 					"text" : "read splat.mp4"
 				}
 
@@ -418,7 +635,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 762.000017762184143, 810.000013470649719, 133.0, 22.0 ],
-					"presentation_linecount" : 6,
 					"text" : "read combinations.mp4"
 				}
 
@@ -526,7 +742,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1227.000017762184143, 289.000013470649719, 87.0, 22.0 ],
-					"presentation_linecount" : 4,
 					"text" : "read lines.mp4"
 				}
 
@@ -768,7 +983,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 542.000017762184143, 377.000013470649719, 90.0, 22.0 ],
-					"presentation_linecount" : 4,
 					"text" : "read claps.mov"
 				}
 
@@ -817,7 +1031,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 287.337848544120789, 553.450474619865417, 50.0, 22.0 ]
+					"patching_rect" : [ 167.0, 697.166669011116028, 50.0, 22.0 ]
 				}
 
 			}
@@ -898,7 +1112,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 430.0, 193.0, 300.0, 20.0 ],
+					"patching_rect" : [ 309.0, 137.0, 300.0, 20.0 ],
 					"text" : "Song Credit: Drivers Liscense by Olivia Rodrigo"
 				}
 
@@ -912,7 +1126,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 166.5, 435.666669011116028, 22.0, 140.0 ],
+					"patching_rect" : [ 50.162151455879211, 487.666669011116028, 22.0, 140.0 ],
 					"size" : 150
 				}
 
@@ -924,7 +1138,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 164.5, 296.0, 31.0, 22.0 ],
+					"patching_rect" : [ 50.0, 328.0, 31.0, 22.0 ],
 					"text" : "sig~"
 				}
 
@@ -935,7 +1149,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 155.0, 633.666669011116028, 45.0, 45.0 ]
+					"patching_rect" : [ 38.662151455879211, 685.666669011116028, 45.0, 45.0 ]
 				}
 
 			}
@@ -946,7 +1160,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 430.0, 155.0, 132.0, 22.0 ],
+					"patching_rect" : [ 309.0, 99.0, 132.0, 22.0 ],
 					"text" : "buffer~ drivers liscence"
 				}
 
@@ -958,7 +1172,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 430.0, 102.0, 48.0, 22.0 ],
+					"patching_rect" : [ 309.0, 46.0, 48.0, 22.0 ],
 					"text" : "replace"
 				}
 
@@ -970,7 +1184,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 177.0, 364.0, 138.0, 22.0 ],
+					"patching_rect" : [ 56.75, 388.0, 138.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
@@ -998,7 +1212,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 155.0, 223.0, 50.0, 22.0 ]
+					"patching_rect" : [ 50.0, 290.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -1009,7 +1223,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.0, 180.0, 29.5, 22.0 ],
+					"patching_rect" : [ 50.0, 253.0, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -1022,7 +1236,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 149.0, 113.0, 24.0, 24.0 ]
+					"patching_rect" : [ 50.0, 164.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1040,6 +1254,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-88", 0 ],
 					"source" : [ "obj-100", 0 ]
@@ -1076,6 +1297,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-106", 0 ],
 					"source" : [ "obj-110", 0 ]
 				}
@@ -1092,6 +1320,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-111", 0 ],
 					"source" : [ "obj-112", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -1118,6 +1353,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
 					"source" : [ "obj-142", 0 ]
 				}
@@ -1134,6 +1376,29 @@
 				"patchline" : 				{
 					"destination" : [ "obj-162", 0 ],
 					"source" : [ "obj-155", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-16", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 1 ],
+					"order" : 0,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"order" : 1,
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -1515,6 +1780,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-140", 0 ],
 					"source" : [ "obj-40", 1 ]
 				}
@@ -1540,6 +1812,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -1579,7 +1858,21 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "yt1s.com - Harry Styles  Watermelon Sugar Lyrics.mp3",
+				"bootpath" : "~/Dropbox/My Mac (Piper’s MacBook Pro)/Downloads",
+				"patcherrelativepath" : "../../../Dropbox/My Mac (Piper’s MacBook Pro)/Downloads",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Driverslicense.mp3.aif",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Settings/Cache",
+				"patcherrelativepath" : "../../../Library/Application Support/Cycling '74/Max 8/Settings/Cache",
+				"type" : "AIFF",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0
 	}
 
